@@ -38,3 +38,12 @@ plot.plot_bars_media_metrics(metric=media_effect_hat)
 # %%
 plot.plot_bars_media_metrics(metric=roi_hat)
 # %%
+plot.plot_media_baseline_contribution_area_plot(media_mix_model=mmm,
+                                                fig_size=(30,10)
+                                                )
+# %%
+plot.create_media_baseline_contribution_df(media_mix_model=mmm)
+
+# %%
+
+# %%
